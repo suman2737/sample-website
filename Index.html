@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Robot</title>
+
+</head>
+<body>
+    <section class="showcase ">
+        <header>
+            <h2 class="logo"></h2>
+            <div class="toggle"></div>
+        </header>
+
+        <video src="explore.mp4.mp4" muted loop autoplay></video>
+
+        <div class="overlay">
+        </div>
+
+        <div class="text">
+        <h2>Never Stop Exploring Technology</h2>
+        <h3>Humans and Machines Working Together Towards a Common Goal </h3>
+        <p>Watch this new-level collabortion between the ai-equipped,6th 
+            Generation Robot and a human player teamed up with a collaborative
+            robot.
+        </p>
+            <a href="#">Explore</a></br>
+            <a href="#">Start Now</a>
+        
+        </div>
+
+
+        <ul class="social">
+            <li><a href="#"></a><img src="instagram 2.png" alt=""></li>
+            <li><a href="#"></a><img src="twitter 2.png" alt=""></li>
+            <li><a href="#"></a><img src="facebook 2.png" alt=""></li>
+        </ul>
+</section>
+
+<div class="menu">
+    <ul>
+        <li><a href="#">Log in</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">New Technolog</a></li>
+        <li><a href="#">Experiences</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">faq</a></li>
+    </ul>
+</div>
+<script> 
+       const menuToggle = document.querySelector('.toggle')
+       const showcase = document.querySelector('.showcase')
+
+       menuToggle.addEventListener('click', () => {
+           menuToggle.classList.toggle('active')
+           showcase.classList.toggle('active')
+
+       })
+</script>
+
+    
+</body>
+</html>
